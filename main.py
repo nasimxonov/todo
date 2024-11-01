@@ -9,7 +9,7 @@ def main():
     create_tables()
 
     app = QApplication(sys.argv)
-    register_window = LoginWindow()  
+    register_window = RegisterWindow()  
     register_window.show()  
     sys.exit(app.exec_())  
 
